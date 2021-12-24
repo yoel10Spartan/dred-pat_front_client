@@ -14,6 +14,7 @@ export const SubMenuUser = styled.div`
     padding: 10px;
     border-radius: 5px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 1000000000000000000000000000000000000;
 `;
 
 export const ItemSubMenuUser = styled.div`
@@ -23,6 +24,7 @@ export const ItemSubMenuUser = styled.div`
     width: 100%;
     text-align: center;
     padding: 5px 1px;
+    z-index: 100000000000000000000000000000000000000;
 
     &:hover{
         background-color: #E5E8E8;

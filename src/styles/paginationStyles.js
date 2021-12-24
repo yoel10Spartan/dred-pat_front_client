@@ -5,6 +5,7 @@ export const ContainerPaguination = styled.div`
     margin: 36px 0 36px 0;
     display: flex;
     justify-content: center;
+    z-index: 100000000000000000000000;
 
     ul{
         border-radius: 3px 3px 3px 3px;
@@ -13,6 +14,7 @@ export const ContainerPaguination = styled.div`
         margin-bottom: 0;
         margin-left: 0;
         cursor: pointer;
+        background-color: #fff;
 
         li{
             display: inline;

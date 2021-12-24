@@ -5,6 +5,7 @@ export const Navigation = styled.div`
     height: 70px;
     z-index: 10000;
     background-color: #fff;
+    z-index: 10000000000000000000000000000000000;
     
 `;
 
@@ -12,7 +13,7 @@ export const ContainerMenu = styled.div`
     max-width: 117rem;
     margin: 0 auto;
     padding: 0 1.6rem;
-    
+    z-index: 10000000000000000000000000000000000;
 `;
 
 export const NavMenu = styled.nav`
@@ -43,6 +44,7 @@ export const ItemsMenu = styled.div`
     width: 60%;
     display: flex;
     justify-content: space-evenly;
+    z-index: 10000000000000000000000000000000000;
 
     a{
         text-decoration: none;

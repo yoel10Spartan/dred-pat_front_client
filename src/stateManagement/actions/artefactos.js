@@ -25,6 +25,8 @@ export const getColumnsTable = (id_table) => {
 
         if(data){
             dispatch( setColumnsTable(data.list_elements) );
+            // total_elements
+            dispatch( setElementsTable( data.total_elements ) )
         } else {
             dispatch( setColumnsTable([]) );
         }

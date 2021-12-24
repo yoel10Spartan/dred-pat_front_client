@@ -36,9 +36,12 @@ export const RoutesBanner = ({ mainElement }) => {
                     }}
                         onClick={() => handleID(item.id, item.name)}
                     >
-                        <Link to='#' className='params__link'>{item.name}</Link>
+                        <Link to='#' style={{
+                            color: '#fff'
+                        }} className='params__link'>{item.name}</Link>
                         <p style={{
-                            margin: '0 15px 0 15px'
+                            margin: '0 15px 0 15px',
+                            color: '#fff'
                         }}>/</p>
                     </div>
                 ))

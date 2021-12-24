@@ -12,6 +12,9 @@ export const File = ({
         <div 
             onClick={redirectHandler ? () => redirectHandler(fileName) : () => {}} 
             className='container__record'
+            style={{
+                zIndex: '1000000000000'
+            }}
         >
             <div className='container__info'>
                 <img src={renderingImage} />

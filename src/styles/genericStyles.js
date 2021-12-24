@@ -30,4 +30,5 @@ export const Banner = styled.div`
     height: 50px;
     border: 1px solid #D5D8DC;
     padding: 0 0 0 15px;
+    z-index: 10000000;
 `;

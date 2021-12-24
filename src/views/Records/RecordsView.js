@@ -12,6 +12,8 @@ import { Load } from '../../components/common/Load';
 import directorie from '../../assets/img/directorie.jpg';
 import file from '../../assets/img/file.png';
 
+import image4 from '../../assets/img/4.jpeg';
+
 export const RecordsView = () => {
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -79,7 +81,11 @@ export const RecordsView = () => {
     }
 
     return (
-        <>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
+            <img className='back__img' src={ image4 } alt='backgroun__front' />
             <RoutesBanner mainElement={{title: 'home', url: '/'}} />
             {load.loadRecords ?  <Load /> : (
                 <div className='container__records_pos'>
@@ -113,6 +119,6 @@ export const RecordsView = () => {
                 id='download_file'
                 target='_blank'
             />
-        </>
+        </div>
     )
 }

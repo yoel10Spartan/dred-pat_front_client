@@ -9,7 +9,8 @@ export const Load = () => {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            justifyContent: 'center'
+            justifyContent: 'center',
+            zIndex: '1000000000000000000000'
         }}>
             <img src={load} alt='load' />
             <p>Cargando...</p>

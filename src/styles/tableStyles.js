@@ -5,6 +5,7 @@ export const ContainerTable = styled.div`
     width: 90vw;
     overflow-x: scroll;
     border-radius: 5px;
+    z-index: 1000000000000000000000;
 `;
 
 export const TableComponent = styled.table`
@@ -30,6 +31,7 @@ export const TableComponent = styled.table`
     tbody{
         tr{
             border-bottom: 1px solid #dddddd;
+            background-color: #f3f3f3;
 
             &:nth-of-type(even){
                 background-color: #f3f3f3;

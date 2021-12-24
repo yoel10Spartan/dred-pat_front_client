@@ -12,13 +12,12 @@ import { useForm } from '../../hook/useForm';
 import { range } from '../../utils/helpers';
 import { Seeker } from '../../components/common/Seeker';
 import { RoutesBanner } from '../../components/layout/RoutesBanner';
+import image3 from '../../assets/img/3.jpeg';
 
 const numberItems = 5;
 const valid_items = ['litica', 'ceramica'];
 
 export const ArtefactoView = () => {
-
-    const oi = 'loadTable'
 
     const { item } = useParams();
     const dispatch = useDispatch();
@@ -62,7 +61,13 @@ export const ArtefactoView = () => {
     }
 
     return (
-        <div>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
+            <img className='back__img' src={ image3 } alt='backgroun__front' style={{
+                height: '800px'
+            }}/>
             <RoutesBanner mainElement={{title: 'artefacto', url: '/'}} />
             <Seeker
                 handleChange={ handleInputChange }

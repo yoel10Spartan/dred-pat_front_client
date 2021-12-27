@@ -7,7 +7,7 @@ export const HomeView = () => {
     return (
         <div style={containerStyle}>
             <img className='back__img' src={ img_front } alt='backgroun__front' />
-            <p style={ titleStyle }>Tutor: Dr. Lane F. Farguer</p>
+            <p style={ titleStyle }>Tutor: Dr. Lane F. Fargher</p>
             <p style={titleStyle}>
                 {'"Proyecto Arqueológico de Tlaxcallan"'}
             </p>
